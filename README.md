@@ -22,3 +22,8 @@ You can find me on [![LinkedIn][1.2]][1], or on [![Behance][2.2]][2], or on [![H
 [1]: https://www.linkedin.com/in/andreasreuter
 [2]: https://www.behance.net/andireuter
 [3]: https://www.hackerrank.com/andreasreuter
+
+# Further Reading
+
+- [Getting started with Yarn 2](https://yarnpkg.com/getting-started/recipes)
+- [Yarn and Git](https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
