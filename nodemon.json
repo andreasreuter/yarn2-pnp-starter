@@ -5,6 +5,6 @@
   ],
   "ext": "ts",
   "execMap": {
-    "ts": "yarn run build && yarn run ts-node"
+    "ts": "yarn build && ts-node"
   }
 }
