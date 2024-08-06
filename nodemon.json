@@ -3,8 +3,6 @@
   "watch": [
     "src"
   ],
-  "ext": "ts",
-  "execMap": {
-    "ts": "yarn build && ts-node"
-  }
+  "ext": "*",
+  "exec": "yarn ts-node"
 }
