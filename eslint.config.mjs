@@ -22,7 +22,14 @@ export default ts.config(
       "linebreak-style": ["error", "unix"],
       quotes: ["error", "double"],
       semi: ["error", "never"],
-      "@typescript-eslint/no-explicit-any": "warn"
+      "@typescript-eslint/no-explicit-any": "warn",
+      "object-curly-newline": [
+        "error",
+        {
+          "ImportDeclaration": { "multiline": true, "minProperties": 3, "consistent": true },
+          "ExportDeclaration": { "multiline": true, "minProperties": 3, "consistent": true }
+        }
+      ]
     }
   }
 )
